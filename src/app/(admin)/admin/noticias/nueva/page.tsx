@@ -19,7 +19,7 @@ export default function NewPostPage() {
 
   return (
     <div className="p-8 max-w-5xl mx-auto space-y-6">
-      <Link href="/admin/noticias" className="flex items-center text-sm text-gray-500 hover:text-brand-red transition-colors mb-4">
+      <Link href="/admin/noticias" className="flex items-center text-sm text-gray-500 hover:text-brand-green transition-colors mb-4">
         <ChevronLeft className="w-4 h-4 mr-1" /> Volver a Noticias
       </Link>
 
@@ -33,13 +33,13 @@ export default function NewPostPage() {
           <Card className="rounded-3xl border shadow-sm">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
-                <FileText className="w-5 h-5 text-brand-red" /> Contenido Editorial
+                <FileText className="w-5 h-5 text-brand-green" /> Contenido Editorial
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="title">Título del Artículo</Label>
-                <Input id="title" name="title" required placeholder="Ej. Roberto Muñoz supervisa avance de muros de contención" className="rounded-xl h-12" />
+                <Input id="title" name="title" required placeholder="Ej. Hermes Oscco supervisa avance de muros de contención" className="rounded-xl h-12" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="slug">Slug (URL)</Label>
@@ -78,7 +78,7 @@ export default function NewPostPage() {
                 <Input id="featuredImg" name="featuredImg" placeholder="https://..." className="bg-white/10 border-white/20 text-white rounded-xl h-12" />
               </div>
               <div className="flex items-center gap-2 py-2">
-                <input type="checkbox" id="published" name="published" defaultChecked className="w-5 h-5 rounded border-gray-300 text-brand-red focus:ring-brand-red" />
+                <input type="checkbox" id="published" name="published" defaultChecked className="w-5 h-5 rounded border-gray-300 text-brand-green focus:ring-brand-green" />
                 <Label htmlFor="published" className="text-white font-bold cursor-pointer">Publicar Inmediatamente</Label>
               </div>
               <Button type="submit" className="w-full bg-brand-yellow hover:bg-brand-yellow/90 text-brand-blue font-bold rounded-xl h-14 text-lg mt-4">

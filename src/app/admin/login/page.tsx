@@ -35,7 +35,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden border-t-8 border-brand-red">
+      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden border-t-8 border-brand-green">
         <div className="p-8">
           <div className="flex justify-center mb-6">
             <div className="w-16 h-16 relative">
@@ -48,7 +48,7 @@ export default function LoginPage() {
             </div>
           </div>
           <h2 className="text-2xl font-bold text-center text-brand-blue mb-2">Acceso Administrativo</h2>
-          <p className="text-center text-gray-500 mb-8">Gestión de Plataforma - Roberto Muñoz</p>
+          <p className="text-center text-gray-500 mb-8">Gestión de Plataforma - Hermes Oscco</p>
           
           <form onSubmit={handleSubmit} className="space-y-6">
             {error && (
@@ -64,7 +64,7 @@ export default function LoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-transparent outline-none transition-all"
-                placeholder="admin@robertomunoz.pe"
+                placeholder="admin@hermesoscco.pe"
               />
             </div>
             <div>

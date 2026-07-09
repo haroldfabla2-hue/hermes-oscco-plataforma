@@ -22,7 +22,7 @@ export default async function PropuestasPage() {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <header className="bg-brand-blue py-16 md:py-24 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-brand-blue/80 to-brand-blue z-10" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-red rounded-full opacity-20 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-green rounded-full opacity-20 blur-3xl" />
         <div className="container mx-auto px-4 relative z-20 text-center space-y-6">
           <Badge className="bg-brand-yellow text-brand-blue hover:bg-brand-yellow font-bold px-4 py-1 text-sm">
             Plan de Gobierno
@@ -31,7 +31,7 @@ export default async function PropuestasPage() {
             Nuestras Propuestas
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
-            Soluciones técnicas, viables y medibles para transformar nuestro distrito. Conoce los ejes de campaña de Roberto Muñoz.
+            Soluciones técnicas, viables y medibles para transformar nuestro distrito. Conoce los ejes de campaña de Hermes Oscco.
           </p>
         </div>
       </header>
@@ -53,8 +53,8 @@ export default async function PropuestasPage() {
                       />
                     </div>
                   ) : (
-                    <div className="h-32 bg-gray-100 flex items-center justify-center group-hover:bg-brand-red/10 transition-colors">
-                      <IconComponent className="w-16 h-16 text-brand-red group-hover:scale-110 transition-transform duration-300" />
+                    <div className="h-32 bg-gray-100 flex items-center justify-center group-hover:bg-brand-green/10 transition-colors">
+                      <IconComponent className="w-16 h-16 text-brand-green group-hover:scale-110 transition-transform duration-300" />
                     </div>
                   )}
                   <CardContent className="p-8 space-y-4 bg-white relative">

@@ -20,7 +20,7 @@ export default async function AdminBuzon() {
     <div className="p-8">
       <div className="flex justify-between items-center mb-8">
         <div>
-          <h1 className="text-3xl font-bold text-brand-blue">Buzón Ciudadano (CRM)</h1>
+          <h1 className="text-3xl font-bold text-brand-blue">Buzón Ciudadano (CHO)</h1>
           <p className="text-muted-foreground">Gestión de casos y escucha vecinal activa.</p>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default async function AdminBuzon() {
             <Link 
               key={ticket.id} 
               href={`/admin/buzon/${ticket.id}`}
-              className="bg-white p-6 rounded-2xl shadow-sm border hover:border-brand-red transition-all group flex flex-col md:flex-row md:items-center justify-between gap-4"
+              className="bg-white p-6 rounded-2xl shadow-sm border hover:border-brand-green transition-all group flex flex-col md:flex-row md:items-center justify-between gap-4"
             >
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-2">
@@ -54,7 +54,7 @@ export default async function AdminBuzon() {
                     <Badge variant="destructive" className="animate-pulse">URGENTE</Badge>
                   )}
                 </div>
-                <h3 className="font-bold text-lg text-brand-blue group-hover:text-brand-red transition-colors">
+                <h3 className="font-bold text-lg text-brand-blue group-hover:text-brand-green transition-colors">
                   {ticket.subject}
                 </h3>
                 <div className="flex items-center gap-4 text-sm text-gray-500">
@@ -67,7 +67,7 @@ export default async function AdminBuzon() {
                   </span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 text-brand-red font-bold text-sm">
+              <div className="flex items-center gap-2 text-brand-green font-bold text-sm">
                 Gestionar Caso
                 <AlertCircle className="w-4 h-4" />
               </div>

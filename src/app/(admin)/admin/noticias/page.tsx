@@ -16,7 +16,7 @@ export default async function AdminNoticias() {
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold text-brand-blue">Gestión de Noticias</h1>
         <Link href="/admin/noticias/nueva">
-          <Button className="bg-brand-red hover:bg-brand-red/90 text-white rounded-xl">
+          <Button className="bg-brand-green hover:bg-brand-green/90 text-white rounded-xl">
             <PlusCircle className="w-4 h-4 mr-2" /> Nueva Noticia
           </Button>
         </Link>

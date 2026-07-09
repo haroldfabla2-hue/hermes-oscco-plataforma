@@ -29,7 +29,7 @@ export default async function ObraDetailPage({ params }: { params: { slug: strin
       {/* HEADER NAV */}
       <div className="bg-white border-b sticky top-0 z-40">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <Link href="/obras" className="flex items-center text-sm font-bold text-brand-blue hover:text-brand-red transition-colors">
+          <Link href="/obras" className="flex items-center text-sm font-bold text-brand-blue hover:text-brand-green transition-colors">
             <ChevronLeft className="w-4 h-4 mr-1" /> Volver a Obras
           </Link>
           <Badge className={
@@ -46,7 +46,7 @@ export default async function ObraDetailPage({ params }: { params: { slug: strin
           {/* LADO IZQUIERDO: CONTENIDO NARRATIVO */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="flex items-center gap-2 text-brand-red font-bold text-sm uppercase tracking-widest">
+              <div className="flex items-center gap-2 text-brand-green font-bold text-sm uppercase tracking-widest">
                 <Building2 className="w-4 h-4" /> Gestión en Territorio
               </div>
               <h1 className="text-4xl md:text-5xl font-extrabold text-brand-blue leading-tight">
@@ -59,8 +59,8 @@ export default async function ObraDetailPage({ params }: { params: { slug: strin
             </div>
 
             {/* IMPACTO BOX */}
-            <div className="bg-brand-red/5 border-l-4 border-brand-red p-6 rounded-r-2xl space-y-2">
-              <h4 className="font-bold text-brand-red flex items-center gap-2">
+            <div className="bg-brand-green/5 border-l-4 border-brand-green p-6 rounded-r-2xl space-y-2">
+              <h4 className="font-bold text-brand-green flex items-center gap-2">
                 <TrendingUp className="w-5 h-5" /> Resultados e Impacto
               </h4>
               <p className="text-brand-blue/80 font-medium">
@@ -88,7 +88,7 @@ export default async function ObraDetailPage({ params }: { params: { slug: strin
                       className="object-cover opacity-60 group-hover:opacity-80 transition-opacity"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-brand-red text-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <div className="w-16 h-16 bg-brand-green text-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                         <PlayCircle className="w-8 h-8" />
                       </div>
                     </div>
@@ -138,7 +138,7 @@ export default async function ObraDetailPage({ params }: { params: { slug: strin
               {galleryImages.length > 0 && (
                 <div className="grid grid-cols-3 gap-2 pt-4">
                   {galleryImages.map((img, idx) => (
-                    <div key={idx} className="relative aspect-square rounded-xl overflow-hidden bg-gray-100 hover:ring-2 ring-brand-red transition-all cursor-pointer">
+                    <div key={idx} className="relative aspect-square rounded-xl overflow-hidden bg-gray-100 hover:ring-2 ring-brand-green transition-all cursor-pointer">
                       <Image src={img} alt={`Galería ${idx}`} fill className="object-cover" />
                     </div>
                   ))}

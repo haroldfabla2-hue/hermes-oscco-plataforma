@@ -24,7 +24,7 @@ export default async function AdminDashboard() {
         <Card className="rounded-2xl border-none shadow-sm">
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium text-muted-foreground">Voluntarios Totales</CardTitle>
-            <Users className="w-4 h-4 text-brand-red" />
+            <Users className="w-4 h-4 text-brand-green" />
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold text-brand-blue">{leadsCount}</div>

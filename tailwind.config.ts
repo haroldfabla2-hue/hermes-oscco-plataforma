@@ -54,7 +54,7 @@ const config = {
         },
         brand: {
           blue: "var(--brand-blue)",
-          red: "var(--brand-red)",
+          red: "var(--brand-green)",
           yellow: "var(--brand-yellow)",
         },
       },

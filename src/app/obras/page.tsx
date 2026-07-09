@@ -19,13 +19,13 @@ export default async function ObrasPublicPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
             <Badge className="bg-brand-yellow text-brand-blue hover:bg-brand-yellow mb-4 font-bold">Gestión con Resultados</Badge>
-            <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Obras en Socabaya</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Obras en Cerro Colorado</h1>
             <p className="text-white/70 text-lg">
               Transparencia total en cada proyecto. Consulta el avance, el impacto y la historia de las intervenciones que transforman nuestro distrito.
             </p>
           </div>
         </div>
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-red/10 -skew-x-12 transform translate-x-1/2" />
+        <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-green/10 -skew-x-12 transform translate-x-1/2" />
       </section>
 
       {/* LISTADO DE OBRAS */}
@@ -59,15 +59,15 @@ export default async function ObrasPublicPage() {
                       </div>
                     </div>
                     <CardContent className="p-8 flex-1 flex flex-col">
-                      <h3 className="text-xl font-extrabold text-brand-blue mb-4 group-hover:text-brand-red transition-colors">
+                      <h3 className="text-xl font-extrabold text-brand-blue mb-4 group-hover:text-brand-green transition-colors">
                         {work.title}
                       </h3>
                       <div className="flex items-center text-sm text-gray-500 mb-6">
-                        <MapPin className="w-4 h-4 mr-1 text-brand-red" /> {work.location}
+                        <MapPin className="w-4 h-4 mr-1 text-brand-green" /> {work.location}
                       </div>
                       <div className="mt-auto flex items-center justify-between">
-                        <span className="text-brand-red font-bold text-sm">Ver Historia y Resultados</span>
-                        <div className="w-10 h-10 rounded-full bg-brand-red/10 flex items-center justify-center text-brand-red group-hover:bg-brand-red group-hover:text-white transition-all">
+                        <span className="text-brand-green font-bold text-sm">Ver Historia y Resultados</span>
+                        <div className="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center text-brand-green group-hover:bg-brand-green group-hover:text-white transition-all">
                           <ArrowRight className="w-5 h-5" />
                         </div>
                       </div>

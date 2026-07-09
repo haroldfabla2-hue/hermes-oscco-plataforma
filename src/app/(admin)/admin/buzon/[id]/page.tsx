@@ -31,7 +31,7 @@ export default async function TicketDetailPage({ params }: { params: { id: strin
 
   return (
     <div className="p-8 max-w-6xl mx-auto space-y-8">
-      <Link href="/admin/buzon" className="flex items-center text-sm text-gray-500 hover:text-brand-red transition-colors mb-4">
+      <Link href="/admin/buzon" className="flex items-center text-sm text-gray-500 hover:text-brand-green transition-colors mb-4">
         <ChevronLeft className="w-4 h-4 mr-1" /> Volver a la bandeja de entrada
       </Link>
 
@@ -67,22 +67,22 @@ export default async function TicketDetailPage({ params }: { params: { id: strin
             </CardHeader>
             <CardContent className="p-6 space-y-4">
               <div className="flex items-start gap-3">
-                <User className="w-5 h-5 text-brand-red" />
+                <User className="w-5 h-5 text-brand-green" />
                 <div>
                   <div className="font-bold text-brand-blue">{ticket.citizen.name}</div>
                   <div className="text-xs text-gray-400">Ciudadano Identificado</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-brand-red" />
+                <Phone className="w-5 h-5 text-brand-green" />
                 <div className="text-sm font-medium">{ticket.citizen.phone}</div>
               </div>
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-brand-red" />
+                <MapPin className="w-5 h-5 text-brand-green" />
                 <div className="text-sm font-medium">{ticket.citizen.district}</div>
               </div>
               <div className="pt-4 mt-4 border-t border-gray-100">
-                <Button variant="ghost" className="w-full text-brand-blue hover:text-brand-red text-xs font-bold">
+                <Button variant="ghost" className="w-full text-brand-blue hover:text-brand-green text-xs font-bold">
                   VER HISTORIAL COMPLETO
                 </Button>
               </div>
@@ -95,11 +95,11 @@ export default async function TicketDetailPage({ params }: { params: { id: strin
             </CardHeader>
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center gap-3">
-                <Tag className="w-5 h-5 text-brand-red" />
+                <Tag className="w-5 h-5 text-brand-green" />
                 <div className="text-sm font-medium">{ticket.topic}</div>
               </div>
               <div className="flex items-center gap-3">
-                <Calendar className="w-5 h-5 text-brand-red" />
+                <Calendar className="w-5 h-5 text-brand-green" />
                 <div className="text-sm font-medium">{ticket.createdAt.toLocaleString('es-PE')}</div>
               </div>
             </CardContent>
@@ -145,7 +145,7 @@ export default async function TicketDetailPage({ params }: { params: { id: strin
                 <Textarea 
                   name="content"
                   placeholder="Escribe una nota interna sobre el avance de este caso..." 
-                  className="min-h-[100px] rounded-2xl border-gray-200 focus:ring-brand-red"
+                  className="min-h-[100px] rounded-2xl border-gray-200 focus:ring-brand-green"
                   required
                 />
                 <div className="flex justify-between items-center">
@@ -154,7 +154,7 @@ export default async function TicketDetailPage({ params }: { params: { id: strin
                       Usar Plantilla
                     </Button>
                   </div>
-                  <Button type="submit" className="bg-brand-red hover:bg-brand-red/90 text-white rounded-xl">
+                  <Button type="submit" className="bg-brand-green hover:bg-brand-green/90 text-white rounded-xl">
                     <Send className="w-4 h-4 mr-2" /> Guardar Nota
                   </Button>
                 </div>

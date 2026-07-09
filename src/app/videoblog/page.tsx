@@ -16,7 +16,7 @@ export default async function VideoblogPage() {
       {/* HERO VIDEO */}
       <section className="py-20 bg-gradient-to-b from-brand-blue to-gray-900 relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10 text-center space-y-4">
-          <Badge className="bg-brand-red text-white hover:bg-brand-red">Roberto Muñoz TV</Badge>
+          <Badge className="bg-brand-green text-white hover:bg-brand-green">Hermes Oscco TV</Badge>
           <h1 className="text-4xl md:text-5xl font-extrabold">Videoblog de Gestión</h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             La cámara no miente. Acompáñanos en cada supervisión, cada reunión vecinal y cada avance que estamos logrando.

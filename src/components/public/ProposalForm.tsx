@@ -28,7 +28,7 @@ export function ProposalForm() {
     return (
       <div className="bg-brand-blue text-white p-8 rounded-3xl text-center border-4 border-brand-yellow/20">
         <h3 className="font-bold text-2xl mb-4">¡Tu voz ha sido escuchada!</h3>
-        <p className="text-gray-300">Hemos recibido tu propuesta. El equipo técnico del alcalde la evaluará para priorizar acciones en tu sector. Gracias por construir una mejor Socabaya.</p>
+        <p className="text-gray-300">Hemos recibido tu propuesta. El equipo técnico del alcalde la evaluará para priorizar acciones en tu sector. Gracias por construir una mejor Cerro Colorado.</p>
         <Button onClick={() => setSuccess(false)} variant="outline" className="mt-6 border-white/20 text-brand-blue bg-white hover:bg-gray-100">
           Enviar otra propuesta
         </Button>

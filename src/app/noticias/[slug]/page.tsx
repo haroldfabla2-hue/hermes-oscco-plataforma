@@ -19,12 +19,12 @@ export default async function NoticiaDetailPage({ params }: { params: { slug: st
     <article className="min-h-screen bg-white pb-20">
       {/* HEADER ARTICLE */}
       <header className="container mx-auto px-4 max-w-4xl py-12 md:py-20 space-y-6">
-        <Link href="/noticias" className="flex items-center text-sm text-gray-500 hover:text-brand-red transition-colors mb-8">
+        <Link href="/noticias" className="flex items-center text-sm text-gray-500 hover:text-brand-green transition-colors mb-8">
           <ChevronLeft className="w-4 h-4 mr-1" /> Volver a Noticias
         </Link>
         
         <div className="space-y-4">
-          <Badge className="bg-brand-red text-white hover:bg-brand-red">{post.category}</Badge>
+          <Badge className="bg-brand-green text-white hover:bg-brand-green">{post.category}</Badge>
           <h1 className="text-3xl md:text-5xl font-extrabold text-brand-blue leading-tight">
             {post.title}
           </h1>
@@ -54,7 +54,7 @@ export default async function NoticiaDetailPage({ params }: { params: { slug: st
 
       {/* CONTENT */}
       <div className="container mx-auto px-4 max-w-3xl">
-        <div className="prose prose-lg prose-slate max-w-none prose-headings:text-brand-blue prose-a:text-brand-red">
+        <div className="prose prose-lg prose-slate max-w-none prose-headings:text-brand-blue prose-a:text-brand-green">
           {/* Aquí renderizaríamos Markdown en un sistema real, por ahora usamos el contenido directo */}
           <div className="whitespace-pre-wrap text-gray-700 leading-relaxed text-lg">
             {post.content}

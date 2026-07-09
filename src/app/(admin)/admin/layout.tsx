@@ -27,10 +27,10 @@ export default function AdminLayout({
       <aside className="w-full md:w-64 bg-brand-blue text-white flex flex-col shrink-0">
         <div className="p-6 text-center border-b border-white/10">
           <div className="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-3">
-            <span className="text-brand-red font-bold text-xl">RM</span>
+            <span className="text-brand-green font-bold text-xl">HO</span>
           </div>
           <h2 className="font-bold text-lg">Panel de Control</h2>
-          <p className="text-sm text-gray-400">Equipo Roberto Muñoz</p>
+          <p className="text-sm text-gray-400">Equipo Hermes Oscco</p>
         </div>
         
         <nav className="flex-1 p-4 space-y-1">

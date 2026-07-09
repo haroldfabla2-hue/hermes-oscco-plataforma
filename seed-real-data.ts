@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log('Iniciando carga de datos reales de la gestión de Roberto Muñoz...');
+  console.log('Iniciando carga de datos reales de la gestión de Hermes Oscco...');
 
   await prisma.post.deleteMany();
   await prisma.work.deleteMany();
@@ -14,10 +14,10 @@ async function main() {
     {
       title: 'Inauguración de la nueva infraestructura de la I.E. Bellapampa',
       slug: 'inauguracion-ie-bellapampa',
-      content: `El alcalde Roberto Muñoz Pinto, en su compromiso con la educación del distrito de Socabaya, inauguró las nuevas instalaciones de la Institución Educativa Bellapampa. 
+      content: `El alcalde Hermes Oscco Pinto, en su compromiso con la educación del distrito de Cerro Colorado, inauguró las nuevas instalaciones de la Institución Educativa Bellapampa. 
       
-Esta obra beneficia a cientos de estudiantes que ahora cuentan con aulas modernas, áreas recreativas seguras y un entorno propicio para el aprendizaje. "Nuestra prioridad son los niños y jóvenes, ellos son el futuro de Socabaya", destacó el burgomaestre durante la ceremonia.`,
-      excerpt: 'El alcalde inauguró modernas instalaciones educativas para beneficio de cientos de estudiantes de Socabaya.',
+Esta obra beneficia a cientos de estudiantes que ahora cuentan con aulas modernas, áreas recreativas seguras y un entorno propicio para el aprendizaje. "Nuestra prioridad son los niños y jóvenes, ellos son el futuro de Cerro Colorado", destacó el burgomaestre durante la ceremonia.`,
+      excerpt: 'El alcalde inauguró modernas instalaciones educativas para beneficio de cientos de estudiantes de Cerro Colorado.',
       featuredImg: '/assets/ie_bellapampa.png',
       category: 'Educación',
       published: true,
@@ -28,7 +28,7 @@ Esta obra beneficia a cientos de estudiantes que ahora cuentan con aulas moderna
       slug: 'reasfaltado-la-oroya',
       content: `Respondiendo a un pedido histórico de los vecinos, la actual gestión inició los trabajos de reasfaltado integral en las principales vías del sector de La Oroya.
 
-Las obras comprenden no solo la colocación de nueva carpeta asfáltica, sino también la mejora de bermas y señalización. El alcalde Muñoz Pinto inspeccionó personalmente el avance de los trabajos, reafirmando que su gestión es de campo y no de escritorio.`,
+Las obras comprenden no solo la colocación de nueva carpeta asfáltica, sino también la mejora de bermas y señalización. El alcalde Oscco Polar inspeccionó personalmente el avance de los trabajos, reafirmando que su gestión es de campo y no de escritorio.`,
       excerpt: 'Se iniciaron los trabajos de mejora vial en La Oroya para garantizar un tránsito seguro y ordenado.',
       featuredImg: '/assets/obra_oroya.png',
       category: 'Infraestructura',
@@ -38,10 +38,10 @@ Las obras comprenden no solo la colocación de nueva carpeta asfáltica, sino ta
     {
       title: 'Recuperación de piscinas y espacios recreativos municipales',
       slug: 'recuperacion-espacios-recreativos',
-      content: `Con la llegada de la temporada de verano, la Municipalidad Distrital de Socabaya, bajo el liderazgo de Roberto Muñoz, ha puesto a disposición de los vecinos las piscinas municipales totalmente remodeladas y con estrictos protocolos de salubridad.
+      content: `Con la llegada de la temporada de verano, la Municipalidad Distrital de Cerro Colorado, bajo el liderazgo de Hermes Oscco, ha puesto a disposición de los vecinos las piscinas municipales totalmente remodeladas y con estrictos protocolos de salubridad.
 
 Además de las piscinas, se han intervenido diversos parques del distrito, dotándolos de mejor iluminación, juegos infantiles reparados y mantenimiento de áreas verdes, promoviendo el sano esparcimiento de las familias socabayinas.`,
-      excerpt: 'Vecinos de Socabaya ya pueden disfrutar de las piscinas municipales y parques renovados para el verano.',
+      excerpt: 'Vecinos de Cerro Colorado ya pueden disfrutar de las piscinas municipales y parques renovados para el verano.',
       featuredImg: '/assets/alcalde_premio.png',
       category: 'Deporte y Recreación',
       published: true,
@@ -58,7 +58,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
     {
       title: 'Mejoramiento Vial en La Oroya',
       slug: 'mejoramiento-vial-oroya',
-      location: 'Sector La Oroya, Socabaya',
+      location: 'Sector La Oroya, Cerro Colorado',
       status: 'IN_PROGRESS',
       progress: 75,
       beforeImg: '',
@@ -72,7 +72,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
     {
       title: 'Renovación I.E. Bellapampa',
       slug: 'renovacion-ie-bellapampa',
-      location: 'Bellapampa, Socabaya',
+      location: 'Bellapampa, Cerro Colorado',
       status: 'COMPLETED',
       progress: 100,
       beforeImg: '',
@@ -86,7 +86,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
     {
       title: 'Mantenimiento de Piscinas Municipales',
       slug: 'mantenimiento-piscinas',
-      location: 'Complejos Deportivos de Socabaya',
+      location: 'Complejos Deportivos de Cerro Colorado',
       status: 'COMPLETED',
       progress: 100,
       beforeImg: '',
@@ -115,7 +115,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
       priority: 1
     },
     {
-      title: 'Socabaya Segura 24/7',
+      title: 'Cerro Colorado Segura 24/7',
       slug: 'socabaya-segura',
       description: 'Potenciaremos el patrullaje integrado entre Serenazgo y la Policía Nacional. Adquisición de nuevas unidades móviles e instalación de cámaras de videovigilancia en puntos críticos del distrito.',
       category: 'Seguridad',
@@ -135,7 +135,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
     {
       title: 'Parques Vivos y Limpios',
       slug: 'parques-vivos',
-      description: 'Recuperación progresiva de todos los parques de Socabaya. Mejora del servicio de recolección de residuos sólidos para mantener nuestro distrito limpio y ordenado.',
+      description: 'Recuperación progresiva de todos los parques de Cerro Colorado. Mejora del servicio de recolección de residuos sólidos para mantener nuestro distrito limpio y ordenado.',
       category: 'Medio Ambiente',
       icon: 'TreePine',
       imageUrl: '/assets/propuesta_parques.png',

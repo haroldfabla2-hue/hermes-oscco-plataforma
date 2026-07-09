@@ -52,7 +52,7 @@ export function LeadForm() {
         <Label htmlFor="district" className="text-brand-blue font-bold">Barrio / Sector</Label>
         <Input id="district" name="district" required placeholder="Ej. Ciudad Mi Trabajo" className="rounded-xl h-12 bg-gray-50 border-gray-200" />
       </div>
-      <Button type="submit" disabled={loading} className="w-full bg-brand-red hover:bg-brand-red/90 text-white font-bold rounded-xl h-12 text-lg">
+      <Button type="submit" disabled={loading} className="w-full bg-brand-green hover:bg-brand-green/90 text-white font-bold rounded-xl h-12 text-lg">
         {loading ? 'Procesando...' : 'Unirme al movimiento'}
       </Button>
     </form>

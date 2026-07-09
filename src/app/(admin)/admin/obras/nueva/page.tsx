@@ -19,7 +19,7 @@ export default function NewWorkPage() {
 
   return (
     <div className="p-8 max-w-5xl mx-auto space-y-6">
-      <Link href="/admin/obras" className="flex items-center text-sm text-gray-500 hover:text-brand-red transition-colors mb-4">
+      <Link href="/admin/obras" className="flex items-center text-sm text-gray-500 hover:text-brand-green transition-colors mb-4">
         <ChevronLeft className="w-4 h-4 mr-1" /> Volver a Obras
       </Link>
 
@@ -33,7 +33,7 @@ export default function NewWorkPage() {
           <Card className="rounded-3xl border shadow-sm">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
-                <Layout className="w-5 h-5 text-brand-red" /> Información Básica
+                <Layout className="w-5 h-5 text-brand-green" /> Información Básica
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -48,7 +48,7 @@ export default function NewWorkPage() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="location">Ubicación / Sector</Label>
-                  <Input id="location" name="location" required placeholder="Ej. Socabaya Tradicional" className="rounded-xl h-12" />
+                  <Input id="location" name="location" required placeholder="Ej. Cerro Colorado Tradicional" className="rounded-xl h-12" />
                 </div>
               </div>
               <div className="space-y-2">
@@ -61,7 +61,7 @@ export default function NewWorkPage() {
           <Card className="rounded-3xl border shadow-sm">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
-                <Info className="w-5 h-5 text-brand-red" /> Storytelling e Impacto
+                <Info className="w-5 h-5 text-brand-green" /> Storytelling e Impacto
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -79,7 +79,7 @@ export default function NewWorkPage() {
           <Card className="rounded-3xl border shadow-sm">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
-                <ImageIcon className="w-5 h-5 text-brand-red" /> Multimedia
+                <ImageIcon className="w-5 h-5 text-brand-green" /> Multimedia
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -125,7 +125,7 @@ export default function NewWorkPage() {
                 <Input id="progress" name="progress" type="number" min="0" max="100" defaultValue="50" className="bg-white/10 border-white/20 text-white rounded-xl h-12" />
               </div>
               <div className="flex items-center gap-2 py-2">
-                <input type="checkbox" id="featured" name="featured" className="w-5 h-5 rounded border-gray-300 text-brand-red focus:ring-brand-red" />
+                <input type="checkbox" id="featured" name="featured" className="w-5 h-5 rounded border-gray-300 text-brand-green focus:ring-brand-green" />
                 <Label htmlFor="featured" className="text-white font-bold cursor-pointer">Destacar en la Home</Label>
               </div>
               <Button type="submit" className="w-full bg-brand-yellow hover:bg-brand-yellow/90 text-brand-blue font-bold rounded-xl h-14 text-lg mt-4">
@@ -134,7 +134,7 @@ export default function NewWorkPage() {
             </CardContent>
           </Card>
 
-          <div className="p-6 bg-brand-red/10 border-2 border-brand-red/20 rounded-3xl text-brand-red text-sm">
+          <div className="p-6 bg-brand-green/10 border-2 border-brand-green/20 rounded-3xl text-brand-green text-sm">
             <h4 className="font-bold flex items-center gap-2 mb-2">
               <Video className="w-4 h-4" /> Recomendación de Prensa
             </h4>

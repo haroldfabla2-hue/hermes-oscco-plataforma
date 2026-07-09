@@ -22,7 +22,7 @@ export default async function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-brand-red relative">
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-brand-green relative">
               <Image 
                 src="/assets/logo.png" 
                 alt="Arequipa Avancemos Logo" 
@@ -32,16 +32,16 @@ export default async function Home() {
               />
             </div>
             <span className="font-bold text-xl tracking-tight text-brand-blue uppercase">
-              Roberto Muñoz
+              Hermes Oscco
             </span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <a href="#inicio" className="hover:text-brand-red transition-colors">Inicio</a>
-            <Link href="/propuestas" className="hover:text-brand-red transition-colors font-bold">Plan de Gobierno</Link>
-            <a href="#obras" className="hover:text-brand-red transition-colors">Obras</a>
-            <Link href="/noticias" className="hover:text-brand-red transition-colors">Noticias</Link>
+            <a href="#inicio" className="hover:text-brand-green transition-colors">Inicio</a>
+            <Link href="/propuestas" className="hover:text-brand-green transition-colors font-bold">Plan de Gobierno</Link>
+            <a href="#obras" className="hover:text-brand-green transition-colors">Obras</a>
+            <Link href="/noticias" className="hover:text-brand-green transition-colors">Noticias</Link>
             <a href="#unete">
-              <Button className="bg-brand-red hover:bg-brand-red/90 text-white rounded-xl">
+              <Button className="bg-brand-green hover:bg-brand-green/90 text-white rounded-xl">
                 Únete al equipo
               </Button>
             </a>
@@ -69,14 +69,14 @@ export default async function Home() {
                 Arequipa Avancemos
               </Badge>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                Gestión técnica <br className="hidden md:block"/> para Socabaya.
+                Gestión técnica <br className="hidden md:block"/> para Cerro Colorado.
               </h1>
               <p className="text-lg md:text-xl text-gray-200 max-w-lg mx-auto md:mx-0">
                 Obras que se ven, orden que se siente. El distrito necesita un equipo que resuelva los problemas con capacidad, no con promesas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
                 <Link href="/obras">
-                  <Button size="lg" className="bg-brand-red hover:bg-brand-red/90 text-white font-bold rounded-xl text-lg h-14 px-8">
+                  <Button size="lg" className="bg-brand-green hover:bg-brand-green/90 text-white font-bold rounded-xl text-lg h-14 px-8">
                     Ver Obras y Resultados
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
@@ -93,7 +93,7 @@ export default async function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-brand-blue via-transparent to-transparent z-10 rounded-3xl" />
               <Image
                 src="/assets/portrait.png"
-                alt="Roberto Muñoz Pinto"
+                alt="Hermes Oscco Pinto"
                 fill
                 className="object-cover rounded-3xl border-4 border-white/10 shadow-2xl"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -104,7 +104,7 @@ export default async function Home() {
         </section>
 
         {/* METRICS STRIP */}
-        <section className="bg-brand-yellow w-full py-8 border-y-4 border-brand-red">
+        <section className="bg-brand-yellow w-full py-8 border-y-4 border-brand-green">
           <div className="container mx-auto px-4 flex flex-wrap justify-center gap-8 md:gap-16 text-brand-blue">
             <div className="flex items-center gap-3">
               <CheckCircle className="w-8 h-8 opacity-80" />
@@ -172,13 +172,13 @@ export default async function Home() {
                         </div>
                       </div>
                       <CardContent className="p-6 space-y-4 bg-white">
-                        <h3 className="font-bold text-xl text-brand-blue line-clamp-2 group-hover:text-brand-red transition-colors">
+                        <h3 className="font-bold text-xl text-brand-blue line-clamp-2 group-hover:text-brand-green transition-colors">
                           {work.title}
                         </h3>
                         <div className="flex items-center text-sm text-muted-foreground">
                           <MapPin className="w-4 h-4 mr-1" /> {work.location}
                         </div>
-                        <div className="w-full text-center py-2 rounded-xl border border-brand-red text-brand-red group-hover:bg-brand-red group-hover:text-white transition-colors font-medium text-sm">
+                        <div className="w-full text-center py-2 rounded-xl border border-brand-green text-brand-green group-hover:bg-brand-green group-hover:text-white transition-colors font-medium text-sm">
                           Ver detalles
                         </div>
                       </CardContent>
@@ -195,7 +195,7 @@ export default async function Home() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="flex-1 space-y-6">
-                <Badge className="bg-brand-red text-white hover:bg-brand-red font-bold">Roberto en tu barrio</Badge>
+                <Badge className="bg-brand-green text-white hover:bg-brand-green font-bold">Roberto en tu barrio</Badge>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-brand-blue">
                   Caminando el territorio, escuchando a los vecinos.
                 </h2>
@@ -218,7 +218,7 @@ export default async function Home() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-brand-red text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-20 h-20 bg-brand-green text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <PlayCircle className="w-10 h-10" />
                     </div>
                   </div>
@@ -246,10 +246,10 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* ÚNETE AL EQUIPO (FORMULARIO) */}
+        {/* ÚNETE AL EQUIPO (FOHOULARIO) */}
         <section id="unete" className="py-20 bg-brand-blue text-white relative overflow-hidden">
           {/* Accent Shapes */}
-          <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-red rounded-full opacity-20 blur-3xl" />
+          <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-green rounded-full opacity-20 blur-3xl" />
           <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-yellow rounded-full opacity-10 blur-3xl" />
           
           <div className="container mx-auto px-4 relative z-10">
@@ -257,19 +257,19 @@ export default async function Home() {
               <div className="flex-1 p-10 md:p-12 flex flex-col justify-center bg-gray-50 border-r border-gray-100">
                 <h2 className="text-3xl font-extrabold mb-4">El cambio necesita equipo.</h2>
                 <p className="text-muted-foreground mb-8 text-lg">
-                  Si crees en la gestión técnica y las obras bien hechas, súmate a la red de voluntarios de Socabaya.
+                  Si crees en la gestión técnica y las obras bien hechas, súmate a la red de voluntarios de Cerro Colorado.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <CheckCircle className="text-brand-red w-5 h-5" />
+                    <CheckCircle className="text-brand-green w-5 h-5" />
                     <span className="font-medium">Participa en mesas técnicas de tu barrio.</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <CheckCircle className="text-brand-red w-5 h-5" />
+                    <CheckCircle className="text-brand-green w-5 h-5" />
                     <span className="font-medium">Difunde los avances reales.</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <CheckCircle className="text-brand-red w-5 h-5" />
+                    <CheckCircle className="text-brand-green w-5 h-5" />
                     <span className="font-medium">Sé parte del equipo de fiscalización.</span>
                   </div>
                 </div>
@@ -283,12 +283,12 @@ export default async function Home() {
       </main>
 
       {/* FOOTER */}
-      <footer className="bg-brand-blue text-white pt-16 pb-8 border-t-[16px] border-brand-red">
+      <footer className="bg-brand-blue text-white pt-16 pb-8 border-t-[16px] border-brand-green">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <div className="col-span-1 md:col-span-2 space-y-4">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-brand-red relative">
+                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-brand-green relative">
                   <Image 
                     src="/assets/logo.png" 
                     alt="Arequipa Avancemos Logo" 
@@ -298,11 +298,11 @@ export default async function Home() {
                   />
                 </div>
                 <span className="font-bold text-2xl tracking-tight text-white uppercase">
-                  Roberto Muñoz
+                  Hermes Oscco
                 </span>
               </div>
               <p className="text-white/70 max-w-sm">
-                Plataforma oficial de campaña. Promovemos la gestión técnica, la transparencia y el desarrollo urbano para Socabaya y Arequipa.
+                Plataforma oficial de campaña. Promovemos la gestión técnica, la transparencia y el desarrollo urbano para Cerro Colorado y Arequipa.
               </p>
             </div>
             <div>
@@ -319,9 +319,9 @@ export default async function Home() {
               <h4 className="font-bold text-lg mb-4 text-brand-yellow">Contacto</h4>
               <ul className="space-y-2 text-white/70">
                 <li className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4" /> Calle San Martín L-12, Socabaya
+                  <MapPin className="w-4 h-4" /> Calle San Martín L-12, Cerro Colorado
                 </li>
-                <li>Prensa: prensa@robertomunoz.pe</li>
+                <li>Prensa: prensa@hermesoscco.pe</li>
               </ul>
             </div>
           </div>

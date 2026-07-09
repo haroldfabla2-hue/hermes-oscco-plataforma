@@ -15,7 +15,7 @@ export default async function AdminWorks() {
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold text-brand-blue">Gestión de Obras</h1>
         <Link href="/admin/obras/nueva">
-          <Button className="bg-brand-red hover:bg-brand-red/90 text-white rounded-xl">
+          <Button className="bg-brand-green hover:bg-brand-green/90 text-white rounded-xl">
             <PlusCircle className="w-4 h-4 mr-2" /> Nueva Obra
           </Button>
         </Link>
@@ -51,7 +51,7 @@ export default async function AdminWorks() {
                   </td>
                   <td className="px-6 py-4">
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
-                      <div className="bg-brand-red h-2.5 rounded-full" style={{ width: `${work.progress}%` }}></div>
+                      <div className="bg-brand-green h-2.5 rounded-full" style={{ width: `${work.progress}%` }}></div>
                     </div>
                   </td>
                   <td className="px-6 py-4 text-right space-x-2">

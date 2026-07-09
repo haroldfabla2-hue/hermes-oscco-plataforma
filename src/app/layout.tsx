@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
-  title: "Juan Roberto Muñoz Pinto | Alcalde de Socabaya",
-  description: "Plataforma oficial de campaña. Gestión técnica, obras y desarrollo territorial para Socabaya y Arequipa.",
+  title: "Juan Hermes Oscco Pinto | Alcalde de Cerro Colorado",
+  description: "Plataforma oficial de campaña. Gestión técnica, obras y desarrollo territorial para Cerro Colorado y Arequipa.",
 };
 
 export default function RootLayout({

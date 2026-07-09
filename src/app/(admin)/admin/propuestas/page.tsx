@@ -20,7 +20,7 @@ export default async function PropuestasPage() {
           <p className="text-muted-foreground">Gestiona los ejes de campaña y propuestas técnicas.</p>
         </div>
         <Link href="/admin/propuestas/nueva">
-          <Button className="bg-brand-red hover:bg-brand-red/90 text-white">
+          <Button className="bg-brand-green hover:bg-brand-green/90 text-white">
             <PlusCircle className="mr-2 h-4 w-4" />
             Nuevo Eje
           </Button>

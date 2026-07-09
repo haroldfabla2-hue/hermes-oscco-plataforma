@@ -17,10 +17,10 @@ export default async function NoticiasPage() {
       {/* HERO NOTICIAS */}
       <section className="bg-brand-blue text-white py-20 relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <Badge className="bg-brand-red text-white hover:bg-brand-red mb-4">Actualidad y Territorio</Badge>
+          <Badge className="bg-brand-green text-white hover:bg-brand-green mb-4">Actualidad y Territorio</Badge>
           <h1 className="text-4xl md:text-5xl font-extrabold">Sala de Prensa</h1>
           <p className="text-white/70 max-w-2xl mx-auto mt-4 text-lg">
-            Mantente informado sobre las acciones, gestiones y el trabajo diario que realizamos por Socabaya.
+            Mantente informado sobre las acciones, gestiones y el trabajo diario que realizamos por Cerro Colorado.
           </p>
         </div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-brand-yellow/10 rounded-full blur-3xl -mr-32 -mt-32" />
@@ -54,13 +54,13 @@ export default async function NoticiasPage() {
                   <div className="flex items-center text-xs text-gray-400 gap-2">
                     <Calendar className="w-3 h-3" /> {post.createdAt.toLocaleDateString('es-PE')}
                   </div>
-                  <h3 className="text-xl font-bold text-brand-blue group-hover:text-brand-red transition-colors line-clamp-2">
+                  <h3 className="text-xl font-bold text-brand-blue group-hover:text-brand-green transition-colors line-clamp-2">
                     {post.title}
                   </h3>
                   <p className="text-muted-foreground text-sm line-clamp-3">
                     {post.excerpt}
                   </p>
-                  <div className="pt-4 flex items-center text-brand-red font-bold text-sm">
+                  <div className="pt-4 flex items-center text-brand-green font-bold text-sm">
                     Leer más <ChevronRight className="w-4 h-4 ml-1" />
                   </div>
                 </div>
