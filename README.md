@@ -1,4 +1,4 @@
-# Plataforma Web - Roberto Muñoz Pinto (Arequipa Avancemos)
+# Plataforma Web - Hermes Nicolás Oscco Polar (Arequipa Avancemos)
 
 Esta es la plataforma oficial de campaña, diseñada con Next.js 14, Tailwind CSS, Prisma ORM y SQLite.
 
@@ -49,7 +49,7 @@ NEXTAUTH_SECRET="cambiar_por_una_cadena_aleatoria_segura_en_produccion"
 ## Acceso Administrativo
 El panel de control `/admin` está protegido por NextAuth. 
 *Por defecto, el script inicializador crea las siguientes credenciales maestras:*
-- **Correo:** `admin@robertomunoz.pe`
+- **Correo:** `admin@hermesoscco.pe`
 - **Contraseña:** `admin123`
 
 ## Características Principales

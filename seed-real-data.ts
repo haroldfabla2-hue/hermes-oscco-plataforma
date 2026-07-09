@@ -116,7 +116,7 @@ Además de las piscinas, se han intervenido diversos parques del distrito, dotá
     },
     {
       title: 'Cerro Colorado Segura 24/7',
-      slug: 'socabaya-segura',
+      slug: 'cerro-colorado-segura',
       description: 'Potenciaremos el patrullaje integrado entre Serenazgo y la Policía Nacional. Adquisición de nuevas unidades móviles e instalación de cámaras de videovigilancia en puntos críticos del distrito.',
       category: 'Seguridad',
       icon: 'Shield',

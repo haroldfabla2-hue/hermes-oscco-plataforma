@@ -15,7 +15,7 @@ async function main() {
       },
       {
         title: 'Plan Cerro Colorado Limpia',
-        slug: 'socabaya-limpia',
+        slug: 'cerro-colorado-limpia',
         description: 'Renovación de la flota de recolección de residuos con compactadoras modernas, instalación de contenedores soterrados y un plan de reciclaje formal que beneficie a las asociaciones locales.',
         icon: 'Recycle',
         category: 'Limpieza',

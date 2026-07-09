@@ -195,7 +195,7 @@ export default async function Home() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="flex-1 space-y-6">
-                <Badge className="bg-brand-green text-white hover:bg-brand-green font-bold">Roberto en tu barrio</Badge>
+                <Badge className="bg-brand-green text-white hover:bg-brand-green font-bold">Hermes en tu barrio</Badge>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-brand-blue">
                   Caminando el territorio, escuchando a los vecinos.
                 </h2>
