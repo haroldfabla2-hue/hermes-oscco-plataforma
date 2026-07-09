@@ -32,7 +32,7 @@ export default function StaggerContainer({
       variants={containerVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, margin: '-100px' }}
+      viewport={{ once: true, margin: '-20px' }}
       className={className}
     >
       {children}

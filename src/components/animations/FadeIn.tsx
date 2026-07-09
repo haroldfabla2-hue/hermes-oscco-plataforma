@@ -9,6 +9,7 @@ interface FadeInProps {
   delay?: number;
   duration?: number;
   scale?: number;
+  trigger?: 'scroll' | 'mount';
   className?: string;
 }
 
@@ -18,6 +19,7 @@ export default function FadeIn({
   delay = 0,
   duration = 0.6,
   scale = 1,
+  trigger = 'scroll',
   className = '',
 }: FadeInProps) {
   const directionOffset = 40;
@@ -41,8 +43,9 @@ export default function FadeIn({
   return (
     <motion.div
       initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: '-100px' }}
+      animate={trigger === 'mount' ? 'visible' : undefined}
+      whileInView={trigger === 'scroll' ? 'visible' : undefined}
+      viewport={trigger === 'scroll' ? { once: true, margin: '-20px' } : undefined}
       transition={{ duration, delay, ease: [0.21, 1.02, 0.43, 1.01] }}
       variants={getVariants()}
       className={className}

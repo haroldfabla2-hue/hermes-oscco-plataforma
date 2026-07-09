@@ -67,7 +67,7 @@ export default async function Home() {
             />
           </div>
           <div className="container mx-auto px-4 relative z-10 flex flex-col-reverse md:flex-row items-center py-16 md:py-24 gap-8">
-            <FadeIn direction="up" delay={0.1} duration={0.8} className="flex-1 text-center md:text-left space-y-6">
+            <FadeIn direction="up" trigger="mount" delay={0.1} duration={0.8} className="flex-1 text-center md:text-left space-y-6">
               <Badge className="bg-brand-yellow text-brand-blue hover:bg-brand-yellow font-bold text-sm px-4 py-1">
                 Arequipa Avancemos
               </Badge>
@@ -92,7 +92,7 @@ export default async function Home() {
                 </Link>
               </div>
             </FadeIn>
-            <FadeIn direction="none" scale={0.95} delay={0.3} duration={0.8} className="flex-1 relative w-full max-w-md mx-auto aspect-square md:aspect-[3/4]">
+            <FadeIn direction="none" trigger="mount" scale={0.95} delay={0.3} duration={0.8} className="flex-1 relative w-full max-w-md mx-auto aspect-square md:aspect-[3/4]">
               <div className="absolute inset-0 bg-gradient-to-t from-brand-blue via-transparent to-transparent z-10 rounded-3xl" />
               <Image
                 src="/assets/portrait.png"
